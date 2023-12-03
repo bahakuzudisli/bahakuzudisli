@@ -12,7 +12,7 @@
  
  🌱 I’m currently learning **Android and Amazon Web Services**
 
-💬 Ask me about **Kotlin, Java, Android... or anything [here](baha71434@gmail.com)**
+💬 Ask me about **Kotlin, Java, Android... or anything [here](mailto:baha71434@gmail.com)**
 
 
  </div>
@@ -24,10 +24,6 @@
   <a href="http://www.linkedin.com/in/baha-kuzudisli" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
- <!-- <a href="https://bahakuzudisli.github.io" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-  </a>
-    -->
 </div>
 
  <hr/>
@@ -35,8 +31,8 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=kotlin,java,android,git,github,gitlab,androidstudio,api" />
-    <img src="https://skillicons.dev/icons?i=firebase,room,dbbrowser,sqlite,mssql,figma,unity,c#" /><br>
+    <img src="https://skillicons.dev/icons?i=kotlin,java,git,github,gitlab,androidstudio,aws" />
+    <img src="https://skillicons.dev/icons?i=sql,firebase,sqlite,figma,unity,csharp" /><br>
 </div>
 
 <br/>
