@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="412" viewBox="0 0 900 412" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace">
+<style>
+  .l { opacity: 0; animation: show .01s linear forwards; }
+  @keyframes show { to { opacity: 1; } }
+  .cursor { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  
+  .drain { animation: drain 7s ease-in-out infinite; transform-box: fill-box; transform-origin: left; }
+  @keyframes drain { 0%,8% { transform: scaleX(1); } 80% { transform: scaleX(.12); } 92%,100% { transform: scaleX(1); } }
+  .wobble { animation: wobble 3s ease-in-out infinite; transform-box: fill-box; transform-origin: left; }
+  @keyframes wobble { 0%,100% { transform: scaleX(.78); } 50% { transform: scaleX(.97); } }
+  .fill { animation: fill 9s linear infinite; transform-box: fill-box; transform-origin: left; }
+  @keyframes fill { 0% { transform: scaleX(.05); } 90% { transform: scaleX(.92); } 100% { transform: scaleX(.92); } }
+  .dot { animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .25; } }
+
+</style>
+<rect x="1" y="1" width="898" height="410" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M1 13 a12 12 0 0 1 12 -12 H887 a12 12 0 0 1 12 12 V36 H1 Z" fill="#161b22"/>
+<line x1="1" y1="36" x2="899" y2="36" stroke="#30363d"/>
+<circle cx="22" cy="19" r="6" fill="#ff5f57"/><circle cx="42" cy="19" r="6" fill="#febc2e"/><circle cx="62" cy="19" r="6" fill="#28c840"/>
+<text x="450.0" y="23" text-anchor="middle" font-size="12" fill="#8b949e">GET /actuator/health — 200 OK</text>
+<text x="24" y="66" font-size="13" xml:space="preserve"><tspan fill="#e6edf3">$ </tspan><tspan fill="#e6edf3">curl -s localhost:8080/actuator/health | jq .status</tspan></text>
+<circle class="dot" cx="34" cy="100" r="7" fill="#3fb950"/>
+<text x="50" y="106" font-size="20" font-weight="700" fill="#3fb950">"UP"</text>
+<text x="110" y="106" font-size="13" fill="#8b949e">— overall healthy, some components are… creative.</text>
+<line x1="24" y1="134" x2="876" y2="134" stroke="#30363d"/>
+<text x="24" y="168" font-size="14" fill="#39c5cf">"coffee"</text>
+<rect x="190" y="153" width="84" height="22" rx="11" fill="#d29922" fill-opacity=".15" stroke="#d29922"/>
+<text x="232.0" y="168" text-anchor="middle" font-size="12" font-weight="700" fill="#d29922">DEGRADED</text>
+<rect x="380" y="157" width="300" height="12" rx="6" fill="#21262d"/>
+<rect class="drain" x="380" y="157" width="300" height="12" rx="6" fill="#d29922"/>
+<text x="696" y="168" font-size="12" fill="#8b949e">level</text>
+<text x="24" y="208" font-size="14" fill="#39c5cf">"motivation"</text>
+<rect x="190" y="193" width="36" height="22" rx="11" fill="#3fb950" fill-opacity=".15" stroke="#3fb950"/>
+<text x="208.0" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#3fb950">UP</text>
+<rect x="380" y="197" width="300" height="12" rx="6" fill="#21262d"/>
+<rect class="wobble" x="380" y="197" width="300" height="12" rx="6" fill="#3fb950"/>
+<text x="696" y="208" font-size="12" fill="#8b949e">level</text>
+<text x="24" y="248" font-size="14" fill="#39c5cf">"learning"</text>
+<rect x="190" y="233" width="108" height="22" rx="11" fill="#58a6ff" fill-opacity=".15" stroke="#58a6ff"/>
+<text x="244.0" y="248" text-anchor="middle" font-size="12" font-weight="700" fill="#58a6ff">IN_PROGRESS</text>
+<rect x="380" y="237" width="300" height="12" rx="6" fill="#21262d"/>
+<rect class="fill" x="380" y="237" width="300" height="12" rx="6" fill="#58a6ff"/>
+<text x="696" y="248" font-size="12" fill="#8b949e">Flutter + AI agents</text>
+<text x="24" y="288" font-size="14" fill="#39c5cf">"kafka"</text>
+<rect x="190" y="273" width="36" height="22" rx="11" fill="#3fb950" fill-opacity=".15" stroke="#3fb950"/>
+<text x="208.0" y="288" text-anchor="middle" font-size="12" font-weight="700" fill="#3fb950">UP</text>
+<text x="380" y="288" font-size="13" fill="#8b949e">// lag: 0 · partitions: ∞</text>
+<text x="24" y="328" font-size="14" fill="#39c5cf">"sleep"</text>
+<rect x="190" y="313" width="132" height="22" rx="11" fill="#f85149" fill-opacity=".15" stroke="#f85149"/>
+<text x="256.0" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="#f85149">OUT_OF_SERVICE</text>
+<text x="380" y="328" font-size="13" fill="#8b949e">// last seen: before university</text>
+<text x="24" y="368" font-size="14" fill="#39c5cf">"bugs"</text>
+<rect x="190" y="353" width="76" height="22" rx="11" fill="#bc8cff" fill-opacity=".15" stroke="#bc8cff"/>
+<text x="228.0" y="368" text-anchor="middle" font-size="12" font-weight="700" fill="#bc8cff">UNKNOWN</text>
+<text x="380" y="368" font-size="13" fill="#8b949e">// it works on my machine™</text>
+</svg>

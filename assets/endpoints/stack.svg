@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="34" viewBox="0 0 123 34" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace">
+<rect x="1" y="1" width="121" height="32" rx="7" fill="#61affe" fill-opacity=".12" stroke="#61affe"/>
+<rect x="4" y="4" width="45" height="26" rx="5" fill="#61affe"/>
+<text x="26.5" y="21.5" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">GET</text>
+<text x="59" y="21.5" font-size="14" font-weight="600" fill="#61affe">/stack</text>
+</svg>
